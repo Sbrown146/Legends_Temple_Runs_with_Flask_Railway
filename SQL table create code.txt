@@ -1,0 +1,17 @@
+--This will usually poop out a "no schema chosen" crap error.  Just run SHOW search_path and if path correct,
+--just restart postgres and it should work.
+
+
+SET search_path to "Temple_Runs";
+SHOW search_path;
+DROP TABLE IF EXISTS Temple_Run_Data;
+CREATE TABLE Temple_Run_Data (Episode FLOAT,Season FLOAT,Name VARCHAR,Team VARCHAR,Temple_Layout FLOAT,Artifact_Location VARCHAR,Artifact_found VARCHAR,Failure_Due_to VARCHAR,Success VARCHAR,Solo VARCHAR,Time_Left FLOAT,Pendants FLOAT);
+
+
+CREATE TABLE temple_run_data1 AS SELECT *, case when pendants=1 THEN 1 when pendants=1.5 THEN 2 when pendants=2 THEN 4 ELSE 3 END AS pen_dummy FROM temple_run_data;
+
+DROP TABLE IF EXISTS temple_runs_data1;
+ALTER TABLE temple_run_data1
+RENAME TO temple_run_data;
+
+ALTER TABLE temple_run_data ALTER COLUMN pen_dummy TYPE float;

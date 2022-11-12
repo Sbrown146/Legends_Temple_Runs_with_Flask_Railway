@@ -1,0 +1,121 @@
+episode,season,name,team,temple_layout,artifact_location,artifact_found,failure_due_to,success,solo,time_left,pendants,pen_dummy
+1,1,Lawrence of Arabia's Headdress,Green Monkeys,9,The Hole of Python,yes,Success,yes,Team,1,2,4
+2,1,The Golden Jaguar of Atahualpa,Blue Barracudas,7,The Treasure Room,yes,Failed Escape,no,Team,0,1,1
+3,1,The Codebook of Mata Hari,Silver Snakes,8,The Heart Room,no,Failed Acquisition,no,Team,0,1.5,2
+4,1,The Trojan Horseshoe,Green Monkeys,3,The Tomb of the Ancient Kings,yes,Success,yes,Team,10,1.5,2
+5,1,The Treasure Map of Jean Lafitte,Blue Barracudas,5,The Swamp,no,Failed Acquisition,no,Team,0,1.5,2
+6,1,The Lucky Pot-Bellied Pig of Amelia Earhart,Blue Barracudas,4,The Room of Harmonic Convergence,no,Failed Acquisition,no,Solo,0,1.5,2
+7,1,The Mask of Shaka Zulu,Red Jaguars,7,The Tomb of the Ancient Kings,yes,Success,yes,Solo,74,1.5,2
+8,1,The Treasure of Anne Bonny,Red Jaguars,9,The Room of the Three Torches,yes,Failed Escape,no,Team,0,1.75,3
+9,1,The Moccasins of Geronimo,Blue Barracudas,4,The Pirate's Cove,yes,Success,yes,Solo,66,1.5,2
+10,1,The Golden Chains of Zenobia,Orange Iguanas,6,The Shrine of the Silver Monkey,no,Failed Acquisition,no,Team,0,2,4
+11,1,The Pendant of Kamehameha,Silver Snakes,3,The Spider's Lair,no,Triple Seizure,no,Team,0,1,1
+12,1,King Tut's Cobra Staff,Purple Parrots,8,The Tomb of the Ancient Kings,yes,Failed Escape,no,Team,0,1.5,2
+13,1,The Stone Marker of Leif Erikson,Red Jaguars,6,The Tomb of the Ancient Kings,no,Failed Acquisition,no,Team,0,1.5,2
+14,1,John Sutter and the Map to the Lost Gold Mine,Blue Barracudas,2,The Tomb of the Ancient Kings,yes,Success,yes,Team,16,2,4
+15,1,The Paintbrush of Leonardo da Vinci,Orange Iguanas,5,The Tomb of the Ancient Kings,no,Failed Acquisition,no,Team,0,2,4
+16,1,The Medal of Sir Edmund Hilary,Silver Snakes,7,The Room of the Three Torches,yes,Failed Escape,no,Team,0,2,4
+17,1,Pecos Bill's Lost Lariat,Green Monkeys,8,The Well,yes,Failed Escape,no,Team,0,1.75,3
+18,1,The Helmet of Joan of Arc,Red Jaguars,6,The Heart Room,no,Failed Acquisition,no,Team,0,2,4
+19,1,Alexander and the Gordian Knot,Orange Iguanas,7,The Observatory,no,Failed Acquisition,no,Team,0,1.75,3
+20,1,Galileo's Cannonball,Silver Snakes,1,The Mine Shaft,yes,Success,yes,Team,1,1.5,2
+21,1,Ponce de Leon and the Lost Fountain of Youth,Green Monkeys,5,The Heart Room,no,Failed Acquisition,no,Team,0,2,4
+22,1,The Stolen Arm of Shiva,Orange Iguanas,6,The Bamboo Forest,no,Failed Acquisition,no,Team,0,1.75,3
+23,1,The Oracle Bowl of Delph,Purple Parrots,5,The Observatory,no,Failed Acquisition,no,Team,0,2,4
+24,1,The Keys to the Alhambra,Red Jaguars,3,The Dungeon,no,Failed Acquisition,no,Team,0,1,1
+25,1,The Belly Button of Buddha,Blue Barracudas,6,The Observatory,yes,Success,yes,Solo,11,2,4
+26,1,Robin Hood and Maid Marian's Silk Ladder,Silver Snakes,7,The Shrine of the Silver Monkey,yes,Success,yes,Team,33,2,4
+27,1,Blackbeard's Treasure Map,Red Jaguars,5,The Dungeon,no,Failed Acquisition,no,Solo,0,2,4
+28,1,Henry VIII's Great Seal,Silver Snakes,4,The Swamp,no,Triple Seizure,no,Team,0,1.5,2
+29,1,The Golden Cup of Belshazzar,Red Jaguars,5,The Shrine of the Silver Monkey,no,Failed Acquisition,no,Team,0,1.5,2
+30,1,Wild Bill Hickok and the Dead Man's Hand,Orange Iguanas,1,The Mine Shaft,no,Failed Acquisition,no,Team,0,2,4
+31,1,John Henry's Lost Hammer,Silver Snakes,2,The Room of the Golden Idols,no,Failed Acquisition,no,Team,0,2,4
+32,1,Elizabeth I's Golden Ship,Red Jaguars,2,The Throne Room,no,Triple Seizure,no,Team,0,1.5,2
+33,1,The Lost Logbooks of Magellan,Blue Barracudas,4,The Dungeon,no,Triple Seizure,no,Team,0,1.5,2
+34,1,The Golden Cricket Cage of Khan,Silver Snakes,2,The Spider's Lair,no,Failed Acquisition,no,Team,0,1.5,2
+35,1,The Silver Saddle Horn of Hannibal,Red Jaguars,7,The Shrine of the Silver Monkey,no,Failed Acquisition,no,Team,0,1.5,2
+36,1,The Snake Bracelet of Cleopatra,Silver Snakes,9,The Room of the Three Torches,yes,Success,yes,Team,20,1.5,2
+37,1,The Dragon Lady and the Blue Pear,Orange Iguanas,8,The Hole of Python,no,Failed Acquisition,no,Team,0,2,4
+38,1,The Collar of Davy Crockett,Silver Snakes,9,The Shrine of the Silver Monkey,yes,Success,yes,Team,5,1,1
+39,1,The Star of Sultan Saladin,Silver Snakes,3,The Observatory,yes,Success,yes,Solo,27,1.5,2
+40,1,The Helmet of Genghis Khan,Red Jaguars,3,The Pirate's Cove,yes,Success,yes,Team,9,2,4
+41,2,The Snakeskin Boots of Billy the Kid,Purple Parrots,8,The Shrine of the Silver Monkey,yes,Success,yes,Team,5,2,4
+42,2,The Enormous Iron Nose Ring of Babe the Ox,Silver Snakes,7,The King's Storeroom,yes,Success,yes,Solo,55,1.5,2
+43,2,The Levitating Dog Leash of Nostradamus,Orange Iguanas,14,The Room of the Secret Password,yes,Success,yes,Team,14,1.75,3
+44,2,The Electrified Key of Benjamin Franklin,Blue Barracudas,11,The Throne Room,no,Failed Acquisition,no,Team,0,1,1
+45,2,The Golden Goblet of Attila the Hun,Red Jaguars,13,The Mine Shaft,no,Failed Acquisition,no,Solo,0,1.5,2
+46,2,The Shriveled Hand of Efoua,Orange Iguanas,12,The Swamp,no,Failed Acquisition,no,Team,0,2,4
+47,2,The Applewood Amulet of Emiliano Zapata,Green Monkeys,11,The Viper's Nest,yes,Success,yes,Team,1,1.5,2
+48,2,The Golden Pepperoni of Catherine de' Medici,Purple Parrots,14,The Room of the Secret Password,no,Failed Acquisition,no,Team,0,1.75,3
+49,2,The Imperial Purple Robe of Empress Theodora,Green Monkeys,11,The Mine Shaft,no,Failed Acquisition,no,Team,0,2,4
+50,2,The Plumed Headdress of Cosa-Rara,Green Monkeys,12,The Mine Shaft,no,Failed Acquisition,no,Team,0,1.75,3
+51,2,The Bonnet of Dolley Madison,Orange Iguanas,14,The Jester's Court,yes,Failed Escape,no,Team,0,2,4
+52,2,The Very Tall Turban of Ahmad Baba,Green Monkeys,12,The Observatory,yes,Success,yes,Solo,14,1.5,2
+53,2,The Cracked Crown of the Spanish King,Orange Iguanas,11,The Observatory,no,Failed Acquisition,no,Team,0,1.75,3
+54,2,The Diary of Doctor Livingstone,Blue Barracudas,11,The Shrine of the Silver Monkey,yes,Success,yes,Team,5,2,4
+55,2,The Stone Head of the Evil King,Blue Barracudas,11,The Swamp,no,Failed Acquisition,no,Team,0,2,4
+56,2,The Silk Sash of Mulan,Blue Barracudas,13,The Room of the Secret Password,no,Failed Acquisition,no,Team,0,2,4
+57,2,The Walking Stick of Harriet Tubman,Orange Iguanas,11,The Observatory,no,Triple Seizure,no,Team,0,1.5,2
+58,2,The Crown of Queen Nzinga,Red Jaguars,12,The Lightning Room,no,Triple Seizure,no,Team,0,1.5,2
+59,2,The Lost Lion Tail of Little John,Purple Parrots,12,The Shrine of the Silver Monkey,no,Failed Acquisition,no,Team,0,1.75,3
+60,2,The Missing Weather Maps of Charles Lindbergh,Red Jaguars,14,The Dark Forest,no,Failed Acquisition,no,Team,0,2,4
+61,2,The Silver Cannonball of Grandy Nanny,Orange Iguanas,10,The Swamp,no,Failed Acquisition,no,Team,0,2,4
+62,2,The Bone Necklace of the Blackfeet Chief,Purple Parrots,11,The King's Storeroom,yes,Failed Escape,no,Team,0,2,4
+63,2,The Ivory Elephant of Scheherazade,Blue Barracudas,12,Medusa's Lair,no,Failed Acquisition,no,Team,0,2,4
+64,2,The Priceless Portrait of the Polynesian Girl,Silver Snakes,14,The Laser Light Room,yes,Failed Escape,no,Team,0,1.75,3
+65,2,The Lost Love Letter of Captain John Smith,Red Jaguars,11,The Dark Forest,no,Triple Seizure,no,Team,0,1.5,2
+66,2,The Silver Horseshoe of Butch Cassidy,Orange Iguanas,10,The Viper's Nest,yes,Success,yes,Solo,52,1,1
+67,2,The Mush Pot Hat of Johnny Appleseed,Orange Iguanas,11,The Viper's Nest,yes,Failed Escape,no,Team,0,2,4
+68,2,The Lucky Medallion of Atocha,Orange Iguanas,11,The Mine Shaft,yes,Success,yes,Solo,5,1,1
+69,2,The Broken Wing of Icarus,Green Monkeys,14,The Shrine of the Silver Monkey,yes,Failed Escape,no,Team,0,1,1
+70,2,The Secret Battle Plan of Nathan Hale,Silver Snakes,14,The Shrine of the Silver Monkey,no,Triple Seizure,no,Team,0,1.5,2
+71,2,The Two-Cornered Hat of Napoleon,Red Jaguars,12,The King's Storeroom,no,Failed Escape,no,Team,0,1.75,3
+72,2,The Golden Stallion of Ali Baba,Orange Iguanas,10,The Shrine of the Silver Monkey,no,Failed Acquisition,no,Team,0,2,4
+73,2,The Heart-Shaped Pillow of Annie Taylor,Blue Barracudas,11,Medusa's Lair,yes,Success,yes,Solo,20,1,1
+74,2,The Jeweled Necklace of Montezuma,Red Jaguars,12,The King's Storeroom,no,Failed Acquisition,no,Team,0,2,4
+75,2,The Golden Earring of Henry Morgan,Silver Snakes,14,The Room of the Mandarin Hand,yes,Failed Escape,no,Team,0,1,1
+76,2,The Sacred Ring of Sultan Suleiman,Purple Parrots,12,The Dark Forest,no,Triple Seizure,no,Team,0,1.5,2
+77,2,The Leopard-Skin Cloak of Annie Oakley,Purple Parrots,13,Medusa's Lair,no,Failed Acquisition,no,Team,0,2,4
+78,2,The Mask of the Man in the Iron Mask,Blue Barracudas,12,The Observatory,no,Failed Acquisition,no,Team,0,2,4
+79,2,The Missing Eye of David,Silver Snakes,12,The Shrine of the Silver Monkey,no,Triple Seizure,no,Team,0,1.5,2
+80,2,The Milk Bucket of Freydis,Purple Parrots,14,The Observatory,yes,Success,yes,Solo,1,2,4
+81,3,The Jeweled Scabbard of Sforza,Green Monkeys,15,The Room of the Ancient Warriors,yes,Success,yes,Team,29,1.75,3
+82,3,The Lion-Slashed Jacket of Sacagawea,Green Monkeys,15,The Room of the Secret Password,no,Failed Acquisition,no,Team,0,1.75,3
+83,3,The Comet-Embroidered Battle Flag of William the Conqueror,Green Monkeys,15,The Chamber of the Sacred Markers,yes,Failed Escape,no,Team,0,2,4
+84,3,The Bullet-Riddled Handbag of Belle Boyd,Green Monkeys,15,The Room of the Ancient Warriors,no,Failed Acquisition,no,Team,0,2,4
+85,3,The Dried Ear of Corn of Sojourner Truth,Green Monkeys,15,The Jester's Court,no,Failed Acquisition,no,Team,0,2,4
+86,3,The Marble Armrest of Xerxes,Green Monkeys,15,The Chamber of the Sacred Markers,no,Failed Acquisition,no,Team,0,1.5,2
+87,3,The Discarded Seal of Ivan the Terrible,Green Monkeys,15,The King's Storeroom,no,Failed Acquisition,no,Team,0,2,4
+88,3,The War Fan of the 47 R?nin,Silver Snakes,15,The Quicksand Bog,no,Failed Acquisition,no,Team,0,1,1
+89,3,The Red Sash of Tokugawa Ieyasu,Blue Barracudas,15,The Tomb of the Headless Kings,no,Failed Acquisition,no,Team,0,2,4
+90,3,The Mummified Hand of the Egyptian King,Blue Barracudas,15,The Dark Forest,no,Triple Seizure,no,Team,0,1.5,2
+91,3,The Smashed Printing Plate of Frederick Douglass,Red Jaguars,15,The Tomb of the Headless Kings,no,Failed Acquisition,no,Team,0,2,4
+92,3,The Upside-Down Compass of Henry Hudson,Purple Parrots,15,The Dark Forest,no,Failed Acquisition,no,Team,0,2,4
+93,3,The Lily-Crested Crown of Clovis I,Orange Iguanas,15,The Quicksand Bog,no,Failed Acquisition,no,Team,0,2,4
+94,3,The Mystical Spellbook of the Imperial Wizard,Green Monkeys,15,The Room of the Secret Password,no,Failed Acquisition,no,Team,0,2,4
+95,3,he Jewel-Encrusted Egg of the Catherine the Great,Red Jaguars,15,The Room of the Ancient Warriors,yes,Success,yes,Team,24,2,4
+96,3,The Broken Trident of Poseidon,Silver Snakes,15,The Shrine of the Silver Monkey,yes,Failed Escape,no,Team,0,2,4
+97,3,The Much-Heralded Helmet of Sir Gawain,Orange Iguanas,15,The Jester's Court,yes,Success,yes,Solo,10,1.5,2
+98,3,The Golden Spider Web of Robert the Bruce,Green Monkeys,15,The Chamber of the Sacred Markers,no,Triple Seizure,no,Team,0,1.5,2
+99,3,The Dried Apple Half of William Tell,Green Monkeys,15,The Room of the Ancient Warriors,no,Failed Acquisition,no,Team,0,2,4
+100,3,The Lost Hornpipe of the Pirate Captain,Green Monkeys,15,The Quicksand Bog,yes,Success,yes,Team,14,1.5,2
+101,3,The Bifocal Monocle of One-Eyed Jack,Orange Iguanas,15,The Shrine of the Silver Monkey,no,Failed Acquisition,no,Team,0,1.75,3
+102,3,The Useless Map of the Chibcha Chieftain,Orange Iguanas,15,The Dark Forest,no,Triple Seizure,no,Team,0,1,1
+103,3,The Missing Portrait of Hans Holbein,Blue Barracudas,15,The Chamber of the Sacred Markers,no,Failed Acquisition,no,Team,0,2,4
+104,3,The Ivory Hunting Horn of Roland,Red Jaguars,15,The Shrine of the Silver Monkey,yes,Success,yes,Solo,71,1.5,2
+105,3,The Secret Map of the Bandit Queen,Silver Snakes,15,The Shrine of the Silver Monkey,yes,Success,yes,Team,9,1,1
+106,3,The Enournous Feather of the Me Linh,Orange Iguanas,15,The King's Storeroom,yes,Failed Escape,no,Team,0,1,1
+107,3,The Thornwood Gavel of Judge Roy Bean,Orange Iguanas,15,The Jester's Court,no,Failed Acquisition,no,Team,0,2,4
+108,3,The Mysterious Manuscript of Mary Shelley,Blue Barracudas,15,The Dark Forest,no,Failed Acquisition,no,Team,0,2,4
+109,3,The Ruby Earring of Benzibab,Silver Snakes,15,The Room of the Secret Password,yes,Success,yes,Team,62,2,4
+110,3,The Lost Whale Bone of Pytheas,Orange Iguanas,15,The Chamber of the Sacred Markers,no,Failed Acquisition,no,Team,0,2,4
+111,3,The Royal Torque of Queen Boadicea,Red Jaguars,15,The Tomb of the Headless Kings,yes,Failed Escape,no,Team,0,2,4
+112,3,The Pearl Necklace of Gwalior,Blue Barracudas,15,The Quicksand Bog,no,Failed Acquisition,no,Team,0,2,4
+113,3,The Good Luck Watch of Empress Eugenie,Green Monkeys,15,The Tomb of the Headless Kings,yes,Failed Escape,no,Team,0,2,4
+114,3,The Melted Head of Madame Tussaud,Orange Iguanas,15,The Quicksand Bog,no,Failed Acquisition,no,Team,0,1.5,2
+115,3,The Metal Beard of the Egyptian Queen,Purple Parrots,15,The Shrine of the Silver Monkey,yes,Success,yes,Team,5,1,1
+116,3,The Snow Cone of Mount Kilimanjaro,Silver Snakes,15,The Room of the Ancient Warriors,no,Failed Acquisition,no,Team,0,1.5,2
+117,3,The Taj Maj Turban of Aurangzeb,Green Monkeys,15,The Room of the Secret Password,no,Triple Seizure,no,Team,0,1.5,2
+118,3,The Bent Shaving Pan of Jedediah Smith,Orange Iguanas,15,The King's Storeroom,no,Failed Acquisition,no,Team,0,1.5,2
+119,3,The Mussel Shell Armor of Apanuugpak,Green Monkeys,15,The Chamber of the Sacred Markers,yes,Success,yes,Team,10,2,4
+120,3,The Lion-Headed Bracelet of Chandragupta,Green Monkeys,15,The Quicksand Bog,yes,Success,yes,Solo,6,1.5,2

@@ -1,0 +1,1 @@
+FLASK_APP=Legends_SQL/app.py flask run

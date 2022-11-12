@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Legends of the Hidden Temple</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
+  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="icon" href="data:,">
+</head>
+
+<!-- <body id="home" background="static/js/Legends-Of-The-Hidden-Temple.jpg"> -->
+<body id="home" background="static/js/legendsofthehiddentempleresizedjpg.jpg">
+<div id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 jumbotron text-center" style="background-color: hsla(0, 0%, 0%, 0.479)">
+          <h1></h1>
+          <p></p>
+          <h1>Legends of the Hidden Temple</h1>
+          <p style="size:20px;"><bold>Temple Run Statistical Data:</bold></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="well" style="background-color:rgb(104, 62, 1);">
+            <h4>Temple Run Success Data:</h4>
+            <h5>Select Team:</h5>
+            <select id="Team_select" onchange="option_Team(this.value)" style="width:100%; color:grey;">
+              <!-- <option value="All Teams">All Teams</option> -->
+              <!-- <option id="RJ" value="Red Jaguars" style="background-color:rgb(98,0,0); color:rgb(212, 212, 212);">Red Jaguars</option>
+              <option value="Blue Barracudas" style="background-color:rgb(35, 121, 233); color:rgb(212, 212, 212);">Blue Barracudas</option>
+              <option value="Orange Iguanas" style="background-color:rgb(218, 121, 4); color:rgb(212, 212, 212);">Orange Iguanas</option>
+              <option value="Silver Snakes" style="background-color:rgb(212, 212, 212)">Silver Snakes</option>
+              <option value="Purple Parrots" style="background-color:rgb(89,45,134); color:rgb(212, 212, 212);">Purple Parrots</option>
+              <option value="Green Monkeys" style="background-color:rgb(39, 82, 75); color:rgb(212, 212, 212);">Green Monkeys</option> -->
+            </select>
+            <h5>Select Season:</h5>
+            <select id="Season_select" onchange="option_Season(this.value)" style="width:100%; color:grey;">
+              <!-- <option value="All Seasons">All Seasons</option> -->
+              <!-- <option value="1">Season 1</option>
+              <option value="2">Season 2</option>
+              <option value="3">Season 3</option> -->
+            </select>
+            <h5>Select Temple Layout:</h5>
+            <select id="Temple_select" onchange="option_Layout(this.value)" style="width:100%; color:grey;">
+              <!-- <option value="All Layouts">All</option> -->
+              <!-- <option value="1">I</option>
+              <option value="2">II</option>
+              <option value="3">III</option>
+              <option value="4">IV</option>
+              <option value="5">V</option>
+              <option value="6">VI</option>
+              <option value="7">VII</option>
+              <option value="8">VIII</option>
+              <option value="9">IX</option>
+              <option value="10">X</option>
+              <option value="11">XI</option>
+              <option value="12">XII</option>
+              <option value="13">XIII</option>
+              <option value="14">XIV</option>
+              <option value="15">XV</option> -->
+            </select>
+            <h5>Number of Pendants of Life:</h5>
+            <select id="Pendants_select" onchange="option_Pendants(this.value)" style="width:100%; color:grey;">
+              <!-- <option value="All">All</option> -->
+              <!-- <option value="1">1</option>
+              <option value="2">1 1/2</option>
+              <option value="3">1 1/2 + 1/2</option>
+              <option value="4">2</option> -->
+            </select>
+            <h5>Select Team or Solo:</h5>
+            <select id="Solo_select" onchange="option_Solo(this.value)" style="width:100%; color:grey;">
+              <!-- <option value="Both">Both</option> -->
+              <!-- <option value="Team">Team</option>
+              <option value="Solo">Solo</option> -->
+            </select> 
+          </div>
+          <!-- </div>
+      </div> -->
+          <div class="panel panel-primary">
+            <!-- <div class="panel-heading" style="background-color:rgb(73, 116, 172)"> -->
+            <div class="panel-heading" style="background-color:rgb(138, 83, 0);">
+              <h3 class="panel-title">Stats for:</h3>
+            </div>
+            <div id="sample-metadata" class="panel-body" style="background-color:rgb(104, 62, 1);"></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="pie" style="margin-left:-20px;"></div>
+      </div>
+        <div class="col-md-3">
+          <div class="panel panel-primary">
+            <div class="panel-heading" style="background-color:rgb(138, 83, 0);">
+            <!-- <div class="panel-heading" style="background-color:rgb(73, 116, 172)"> -->
+              <h3 class="panel-title">Overall Temple Run Statistics:</h3>
+            </div>
+            <div id="team-metadata" class="panel-body" style="background-color:rgb(104, 62, 1);"></div>
+          </div>
+          <div id="gauge" style="margin-left:-80px;"></div>
+          <img src="static/js/Temple_Run_Timer.jpg" height=100" width="250" class="Timer" style="margin-top:-250px;">
+        </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble" style="margin-top:-150px;"></div>
+      </div>
+    </div>
+    <footer class="footer">
+      <span class="bottom" style="background-color:rgba(0, 0, 0, 0.8);">&copy; Nickelodeon</span>
+    </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- <script src="static/js/data.js"></script> -->
+  <script src="static/js/app.js"></script>
+  <!-- <script rel="stylesheet" href="file:\\\C:\Users\scott\Desktop\Legends_SQL\static\js\app.js"></script> -->
+</div>
+</body>
+
+</html>
